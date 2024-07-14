@@ -1,0 +1,96 @@
+.header-container {
+    height: 100%;
+    background-image: url(./images/banner/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+
+.nav {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--font-primary-color);
+    font-family: "Antonio", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+
+#right-menu-icon-id {
+    width: 175.73px;
+    text-align: center;
+}
+
+
+.banner-title h1 {
+    font-weight: bolder;
+    font-size: 110px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 40px 0px;
+}
+
+.banner-description {
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 40px 0px;
+
+}
+
+
+.banner-profile-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--font-primary-color);
+    border-bottom: 1px solid var(--font-primary-color);
+}
+
+
+.banner-profile-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 20px;
+}
+
+
+.work-icon-container {
+    display: flex;
+    gap: 10px;
+    padding: 20px 0px;
+    border-bottom: 1px solid var(--font-primary-color);
+}
+
+
+.check-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.banner-image-container {
+    background-color: var(--font-primary-color);
+    width: fit-content;
+}
+
+#banner-image-id {
+    height: 300px;
+}
+
+
+.complete-project-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete-project-card h1 {
+    font-size: 152px;
+}
+
+
+.complete-project-card p {
+    font-size: 40px;
+    text-transform: uppercase;
+}

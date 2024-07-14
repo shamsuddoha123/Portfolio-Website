@@ -1,0 +1,49 @@
+/* This is media query */
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+
+    /* Header resposiveness start */
+    .container {
+        padding: 0px 5px;
+    }
+
+
+    .nav {
+        color: red;
+        font-size: 16px;
+    }
+
+    .complete-project-container {
+        flex-direction: column;
+    }
+
+    .banner-profile-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-image-container {
+        width: 100%;
+    }
+
+    #banner-image-id {
+        width: 100%;
+    }
+
+    .banner-title h1 {
+        font-size: 25px;
+    }
+    /* Header resposiveness end */
+
+
+    /* Main body responsiveness start */
+    .projects{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .my-blogs{
+        flex-direction: column;
+    }
+    /* Main body responsiveness end */
+
+}
