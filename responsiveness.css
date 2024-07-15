@@ -33,17 +33,19 @@
     .banner-title h1 {
         font-size: 25px;
     }
+
     /* Header resposiveness end */
 
 
     /* Main body responsiveness start */
-    .projects{
+    .projects {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .my-blogs{
+    .my-blogs {
         flex-direction: column;
     }
+
     /* Main body responsiveness end */
 
 }

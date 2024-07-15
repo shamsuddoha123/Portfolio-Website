@@ -1,4 +1,4 @@
-.section-title{
+.section-title {
     margin: 20px;
     font-size: 40px;
     text-transform: uppercase;
@@ -6,23 +6,22 @@
 
 /* project start */
 
-.projects{
+.projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
-.projects img{
+.projects img {
     width: 100%;
 }
 
-.check-all-project{
+.check-all-project {
     display: flex;
     justify-content: center;
-    
 }
 
-.check-all-project button{
+.check-all-project button {
     padding: 15px 50px;
     background-color: var(--background-color);
     margin-top: 20px;
@@ -33,57 +32,59 @@
     border-right: 1px solid var(--font-primary-color);
     font-size: 40px;
     text-transform: uppercase;
-
 }
-/* project end */
 
+/* project end */
 
 /* blog start */
 
-
-.my-blogs{
+.my-blogs {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
 }
 
-.tag{
+
+.tag {
     background-color: var(--font-primary-color);
     width: fit-content;
     padding: 17px 30px;
     border-radius: 15px;
     margin: 30px 0px;
 }
-.tag h1{
+
+.tag h1 {
     color: var(--background-color);
 }
 
-.date{
+.date {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.date-name{
+.date-name {
     display: flex;
     gap: 20px;
 }
 
-.round-date{
+.round-date {
     width: 15px;
     height: 15px;
     background-color: blueviolet;
     border-radius: 100%;
 }
 
-.round-name{
+.round-name {
     width: 15px;
     height: 15px;
     background-color: skyblue;
     border-radius: 100%;
 }
 
-.blog-title{
+.blog-title {
     margin: 30px 0px;
     font-family: "Poppins", sans-serif;
 }
+
 /* blog end */
