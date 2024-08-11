@@ -87,4 +87,68 @@
     font-family: "Poppins", sans-serif;
 }
 
+.img img{
+    width: 100%;
+}
+
 /* blog end */
+
+
+/* testimonial start */
+
+.testimonial-title{
+    text-align: center;
+}
+
+#testimonial-title{
+    font-size: 80px;
+    color: var(--primary-color);
+}
+
+#testimonial-description{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+
+
+.testimonial-cards{
+    display: flex;
+    gap: 15px;
+}
+
+
+.left-side-card-top{
+    width: 65%;
+    background: linear-gradient(93.43deg, rgba(94, 74, 241, 0.17) 0%, rgba(186, 11, 249, 0.2) 100%);
+    
+}
+
+
+.left-side-single-card{
+    display: flex;
+    
+    
+}
+
+
+.right-side{
+    width: 35%;
+    background: linear-gradient(93.43deg, rgba(94, 74, 241, 0.17) 0%, rgba(186, 11, 249, 0.2) 100%);
+
+}
+
+
+.testimonial-left-card-title{
+    margin-top: 40px;
+    font-size: 50px;
+    padding: 15px;
+
+}
+
+
+.testimonial-left-card-description{
+    margin-top: 30px;
+    padding: 15px;
+}
+
+/* testimonial end */
